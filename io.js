@@ -15,6 +15,6 @@ exports.solve = (work) => {
     else sets = input;
   }).on('close', () => {
     ws.end();
-    console.log(n + ' sets solved of ' + sets + '.');
+    console.log(`${n} sets solved of ${sets}.`);
   });
 };
