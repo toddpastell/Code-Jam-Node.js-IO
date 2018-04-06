@@ -2,7 +2,7 @@
 A simple Node.js module to handle read/write operations when solving Google Code Jam problems
 
 ## How to Use
-Run your node script with your input file and outpul file as arguments.
+Run your node script with your input file and output file as arguments.
 
 ```node [script.js] [input.txt] [output.txt]```
 
