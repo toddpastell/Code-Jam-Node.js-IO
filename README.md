@@ -22,8 +22,8 @@ io.solve((n, input) => {
 ### .solve( work )
 **work**
 
-Type: Function( Number line, String input )
+Type: *Function*( *Number* line, *String* input )
 
-Return: String
+Return: *String*
 
 A function that provides the line number and input data for each line of the input file. Return the string that will be written to each line of the output file.
