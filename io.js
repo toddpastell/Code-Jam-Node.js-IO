@@ -2,6 +2,8 @@ const fs = require('fs');
 const readline = require('readline');
 
 exports.solve = (work) => {
+  if (process.argv.length < 3) return console.error('Error: input file not specified');
+  if (process.argv.length < 4) return console.error('Error: output file not specified');
   let n = -1;
   let sets = 0;
   const ws = fs.createWriteStream(process.argv[3]);
