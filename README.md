@@ -14,7 +14,7 @@ const io =  require('../lib/io');
 io.solve((n, input) => {
   /* your code to solve the problem */
   let answer = your_solver(input);
-  return 'Case ${n}: ${answer}';
+  return `Case ${n}: ${answer}`;
 });
 ```
 
